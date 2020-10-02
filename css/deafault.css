@@ -1,0 +1,55 @@
+body {
+  width: 786px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header > p {
+  background-color: #a52a2a;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: white;
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+#photo {
+  align-content: center;
+  margin-bottom: 1.5em;
+}
+
+#text1 {
+  font-size: 18px;
+}
+#text1 > span {
+  color: #0000ff;
+  font-style: italic;
+}
+#text2 {
+  font-size: 18px;
+}
+#text2 > span {
+  color: #0000ff;
+}
+
+#cars > div {
+  border-style: dashed;
+  border-color: black;
+  border-width: 3px;
+  display: inline-block;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#cars > div:first-child {
+  margin-left: 25%;
+}
+
+footer {
+  font-size: 20px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
